@@ -1,0 +1,27 @@
+#calculator {
+  margin-top: 50px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons .row {
+  margin-bottom: 5px;
+}
+
+.buttons button {
+  width: calc(100% / 3 - 5px);
+  height: 50px;
+  margin-right: 5px;
+}
+
+.buttons button:last-child {
+  margin-right: 0;
+}
+
+#display {
+  text-align: right;
+  font-size: 24px;
+  height: 50px;
+}
